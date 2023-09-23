@@ -36,7 +36,7 @@ public class RecibeDatos extends HttpServlet {
             out.println("<!DOCTYPE html>");
             out.println("<html>");
             out.println("<head>");
-            out.println("<title>Servlet RecibeDatos</title>");            
+            out.println("<title>Alerta</title>");            
             out.println("</head>");
             out.println("<body>");
             out.println("<h1>Proceso: " + msg + "</h1>");
