@@ -18,4 +18,9 @@
         <servlet-name>RecibeDatos</servlet-name>
         <url-pattern>/RecibeDatos</url-pattern>
     </servlet-mapping>
+    
+    <servlet-mapping>
+    <servlet-name>default</servlet-name>
+    <url-pattern>/includes/*</url-pattern>
+</servlet-mapping>
 </web-app>
