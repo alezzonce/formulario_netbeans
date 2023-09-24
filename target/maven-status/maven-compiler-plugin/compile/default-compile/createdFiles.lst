@@ -1,3 +1,4 @@
 com\formulario\proyectoformulario\JakartaRestConfiguration.class
 controladores\RecibeDatos.class
 com\formulario\proyectoformulario\resources\JakartaEE10Resource.class
+controladores\Conexion.class
