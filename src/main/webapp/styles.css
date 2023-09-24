@@ -1,0 +1,73 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+.Formulario{
+    background-color: rgba(0, 204, 255, 0.801);
+    height: 390px;;
+    width: 300px;
+    padding: 2%;
+    border-radius: 18px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 100px;  
+}  
+input{
+        background: white;
+        padding: 10px 40px;
+        border: 0;
+        border-radius: 18px ;
+        margin: 4% ;
+    }
+h4{
+    background: none;
+    margin:  0px, 0px, 0px, 500px;
+    width: center;
+    }
+.Boton{
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 18px;
+    border:0 ;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 120px;
+    margin-bottom: 20px;
+}
+
+.Boton:hover{
+    background-color: rgb(3, 3, 3);
+    color: white;
+}
+.footer{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgba(0, 0, 0, 0.452);
+    font-size: 13px;
+    padding: 10px;
+    color: white;
+    margin: Spx;
+    height: auto;
+    width: auto;
+    margin-top: 50px;
+    }
+    .placeholder{
+
+        text-align: center;
+    }
+
+.Titulo{
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(0, 0, 0) !important;
+        text-align: center;
+        font-size: 30px;
+        padding: 0px;
+        width: 100%;
+        height: auto;
+
+    
+
+}

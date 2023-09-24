@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 
 public class Conexion {
     public static void main(String[] args) {
-        String url = "jdbc:mysql://localhost:30001/db";
+        String url = "jdbc:mysql://localhost:3306/db";
         String usuario = "root";
         String password = "123456";
         Connection conexion;
@@ -27,7 +27,7 @@ public class Conexion {
         try {
         conexion = DriverManager.getConnection(url,usuario,password);
         statement = conexion.createStatement();
-        statement.executeUpdate("INSERT INTO USUARIOS(NOMBRE,PASSWORD) VALUES('ABC','ABC123')");
+        statement.executeUpdate("INSERT INTO usuarios(NOMBRE,PASSWORD) VALUES('ABC','ABC123')");
         rs = statement.executeQuery("SELECT * FROM USUARIOS");
         rs.next();
         do {

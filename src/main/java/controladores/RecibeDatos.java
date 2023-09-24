@@ -39,7 +39,7 @@ public class RecibeDatos extends HttpServlet {
             out.println("<title>Alerta</title>");            
             out.println("</head>");
             out.println("<body>");
-            out.println("<h1>Proceso: " + msg + "</h1>");
+            out.println("<h1>Alerta: " + msg + "</h1>");
             out.println("</body>");
             out.println("</html>");
         }
@@ -62,9 +62,9 @@ public class RecibeDatos extends HttpServlet {
         String clave = request.getParameter("clave");
         
             if("admin".equals(usuario) && "1234".equals (clave)) {
-                processRequest (request, response, "Registro Exitoso");
+                processRequest (request, response, "Haz iniciado sesion correctamente");
             } else {
-                processRequest (request, response, "Registro invalido");
+                processRequest (request, response, "Los datos son invalidos, por favor intente de nuevo");
             }
         
     }

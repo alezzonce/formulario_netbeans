@@ -4,41 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div>Login</div>
-    
-    <form action="RecibeDatos" method="get"></form>
+    <div>
+        <form class="Formulario" name="Ingreso" action="RecibeDatos" method="get">
+            <br><br>
+            <b><div class="Titulo">Login</div></b>
+            <h4 class="titulos">Usuario:</h4>
+            <input type="text" name="usuario" value="" placeholder="Ingrese su usuario aquí" />
+            <br><br>
+            <h4 class="titulos">Contraseña:</h4>
+            <input type="password" name="clave" value="" placeholder="Ingrese su contraseña aquí"/>
+            <br><br>
+            <input class="Boton" type="submit" value="Enviar" />
+            <br><br>
+        </form>
+    </div>   
 
-    <form name="Ingreso" action="RecibeDatos" method="get">
-        <br><br>
-        Usuario:
-        <input type="text" name="usuario" value="" />
-        <br><br>
-        Contraseña:
-        <input type="password" name="clave" value="" />
-        <br><br>
-        <input type="submit" value="Enviar" />
-        <br><br>
-        
-  
-    </form>
-    
-    
-    
-    
-<footer>
-<div class=" footer">
-
-<P>  GA7-220501096-AA2-EV02 - MODULOS DE SOFTWARE CODIFICADOS Y PROBADOS </p>
-<p>Estudiantes: Alison Yullet Ospina Cortes| Alexander Orozco| Luis Andres Rios Noreña| Luis David Rincon Gomez.<p>
-<P>FICHA: 2627848<p>
-
-
-   <p> &copy; 2023. Todos los derechos reservados.</p>
-    
-
-</footer>
-
+    <footer>
+        <div class=" footer">
+            <p>GA7-220501096-AA2-EV02 - MODULOS DE SOFTWARE CODIFICADOS Y PROBADOS</p>
+            <p>Estudiantes: Alison Yullet Ospina Cortes| Alexander Orozco| Luis Andres Rios Noreña| Luis David Rincon Gomez.</p>
+            <p>FICHA: 2627848</p>
+            <p>&copy; 2023. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 </body>
-</html> 
+</html>
